@@ -120,12 +120,12 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _TODO: What is the main advantage of automating configuration with Ansible?_
--Free: Ansible is an open-source tool.
--Very simple to set up and use: No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
--Powerful: Ansible lets you model even highly complex IT workflows. 
--Flexible: You can orchestrate the entire application environment no matter where it’s deployed. You can also customize it based on your needs.
--Agentless: You don’t need to install any other software or firewall ports on the client systems you want to automate. You also don’t have to set up a separate management structure.
--Efficient: Because you don’t need to install any extra software, there’s more room for application resources on your server.
+- _Free: Ansible is an open-source tool.
+- _Very simple to set up and use: No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
+- _Powerful: Ansible lets you model even highly complex IT workflows. 
+- _Flexible: You can orchestrate the entire application environment no matter where it’s deployed. You can also customize it based on your needs.
+- _Agentless: You don’t need to install any other software or firewall ports on the client systems you want to automate. You also don’t have to set up a separate management structure.
+- _Efficient: Because you don’t need to install any extra software, there’s more room for application resources on your server.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
