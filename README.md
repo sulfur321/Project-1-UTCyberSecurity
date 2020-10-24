@@ -129,7 +129,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Efficient: Because you don’t need to install any extra software, there’s more room for application resources on your server.
 
 The playbook implements the following tasks:
-**- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+**- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._  
 - ...
 - ...
 
