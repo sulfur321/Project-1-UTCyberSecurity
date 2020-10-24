@@ -91,12 +91,12 @@ The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| DVWA1     | Webserver| 10.0.0.5   | Linux            |
-| DVWA2    |          |            | Linux            |
+|---------- |----------|------------|------------------|
+| Jump Box  | Gateway  | 10.0.0.1   | Linux            |
+| Web-1     | Webserver| 10.0.0.5   | Linux            |
+| Web-2     |          |            | Linux            |
 | ELK-Server|           10.1.0.4
-10.1.0.4  |            | Linux            |
+ 
 
 ### Access Policies
 
