@@ -72,9 +72,9 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly redundant, in addition to restricting access to the network.
-- A load balancer intelligently distributes traffic from clients across multiple servers without the clients having to understand how many servers are in use or how they are configured. Because the load balancer sits between the clients and the servers it can enhance the user experience by providing additional security, performance, resilience and simplify scaling your website.
+Load balancing ensures that the application will be highly available, in addition to restricting in-bound access to the network.
 
+- A load balancer intelligently distributes traffic from clients across multiple servers without the clients having to understand how many servers are in use or how they are configured. Because the load balancer sits between the clients and the servers it can enhance the user experience by providing additional security, performance, resilience and simplify scaling your website.
 
 
 What is the advantage of a jump box?_
@@ -82,8 +82,10 @@ A jump box is a secure computer that all admins first connect to before launchin
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the jumpbox and system network_.
-- _TODO: What does Filebeat watch for?_
+- _TODO: What does Filebeat watch for?_ 
+Changes to file changes on the machine.
 - _TODO: What does Metricbeat record?_
+collect metrics from the operating system and from services running on the server.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -91,9 +93,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| DVWA1     | Webserver| 10.0.0.5   | Linux            |
+| DVWA2    |          |            | Linux            |
+| ELK-Server|           10.1.0.4
+10.1.0.4  |            | Linux            |
 
 ### Access Policies
 
