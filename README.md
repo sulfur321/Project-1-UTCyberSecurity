@@ -81,7 +81,7 @@ What is the advantage of a jump box?_
 A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments.
 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the jumpbox and system network_.
 - _TODO: What does Filebeat watch for?_
 - _TODO: What does Metricbeat record?_
 
