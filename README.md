@@ -196,5 +196,5 @@ cd /etc/ansible
  $ ansible-playbook install_filebeat.yml webservers
  $ ansible-playbook install_metricbeat.yml webservers
  ```
- - Check that the ELK server is running: http://[Host IP]/app/kibana#/home
+ - Check that the ELK server is running: http://[Host IP]/app/kibana#/home 
 
