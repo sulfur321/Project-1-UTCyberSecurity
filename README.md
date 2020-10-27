@@ -132,18 +132,18 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 **In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._  
-*Install docker.io
-*Install pip3
-*Install Docker python module
-*Increase virtual memory
-*Download and launch a docker
+- Install docker.io
+- Install pip3
+- Install Docker python module
+- Increase virtual memory
+- Download and launch a docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![Docker PS screen shot](Images/blythechristopher-P1-dockerps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: Private IPs of Web-1 and Web-2
+-Private IPs of Web-1 and Web-2
 
 | Name      | IP Addresses         |
 |---------- |----------------------|
@@ -152,7 +152,8 @@ This ELK server is configured to monitor the following machines:
                   
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- Specify which Beats you successfully installed
+- Microbeats
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
