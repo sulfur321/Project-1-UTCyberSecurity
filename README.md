@@ -77,14 +77,14 @@ Load balancing ensures that the application will be highly available, in additio
 - A load balancer intelligently distributes traffic from clients across multiple servers without the clients having to understand how many servers are in use or how they are configured. Because the load balancer sits between the clients and the servers it can enhance the user experience by providing additional security, performance, resilience and simplify scaling your website.
 
 
-What is the advantage of a jump box?_
-A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments.
+What is the advantage of a jump box?
+- A jump box is a secure computer that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments.
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the jumpbox and system network_.
-- _TODO: What does Filebeat watch for?_ 
+-What does Filebeat watch for? 
 Changes to file changes on the machine.
-- _TODO: What does Metricbeat record?_
+-What does Metricbeat record?
 collect metrics from the operating system and from services running on the server.
 
 The configuration details of each machine may be found below.
@@ -106,7 +106,8 @@ Only the jump box provisioner machine can accept connections from the Internet. 
 - 5061 Kibana Port
 
 Machines within the network can only be accessed by jump box provisioner.
-**- _TODO: Which machine did you allow to access your ELK VM? My IP Address: 72.179.7.89
+-Which machine did you allow to access your ELK VM? 
+My IP Address: 72.179.7.89
 
 A summary of the access policies in place can be found in the table below.
 
@@ -120,7 +121,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- **TODO: What is the main advantage of automating configuration with Ansible?_
+- **What is the main advantage of automating configuration with Ansible?_
 - Free: Ansible is an open-source tool.
 - Very simple to set up and use: No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
 - Powerful: Ansible lets you model even highly complex IT workflows. 
@@ -129,7 +130,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Efficient: Because you don’t need to install any extra software, there’s more room for application resources on your server.
 
 The playbook implements the following tasks:
-**- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._  
+**In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._  
 - ...
 - ...
 
