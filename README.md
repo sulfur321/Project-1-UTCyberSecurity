@@ -89,7 +89,6 @@ Changes to file changes on the machine.
 collect metrics from the operating system and from services running on the server.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name      | Function  | IP Address | Operating System |
 |-----------|-----------|------------|------------------|
@@ -123,7 +122,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- **What is the main advantage of automating configuration with Ansible?
+ **What is the main advantage of automating configuration with Ansible?**
 - Free: Ansible is an open-source tool.
 - Very simple to set up and use: No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
 - Powerful: Ansible lets you model even highly complex IT workflows. 
@@ -132,7 +131,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Efficient: Because you don’t need to install any extra software, there’s more room for application resources on your server.
 
 The playbook implements the following tasks:
-**In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._  
+**In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.** 
 - Install docker.io
 - Install pip3
 - Install Docker python module
@@ -167,10 +166,8 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 Copy the playbook file to Ansible Control Node.
-Playbooks for Filebeat and Mtricbeat are also here:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected. 
+Playbooks for Filebeat and Mtricbeat are also here:[microbeats
+ 
 ```
 $ cd /etc/ansible
 $ mkdir files
@@ -202,9 +199,3 @@ cd /etc/ansible
  ```
  - Check that the ELK server is running: http://[Host IP]/app/kibana#/home
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._   
