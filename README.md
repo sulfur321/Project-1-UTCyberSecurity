@@ -107,6 +107,7 @@ Only the jump box provisioner machine can accept connections from the Internet. 
 - 5601 Kibana Port
 
 Machines within the network can only be accessed by jump box provisioner.
+
 -Which machine did you allow to access your ELK VM? 
 My IP Address: 72.179.7.89
 
@@ -122,7 +123,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- **What is the main advantage of automating configuration with Ansible?_
+- **What is the main advantage of automating configuration with Ansible?
 - Free: Ansible is an open-source tool.
 - Very simple to set up and use: No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
 - Powerful: Ansible lets you model even highly complex IT workflows. 
@@ -137,6 +138,7 @@ The playbook implements the following tasks:
 - Install Docker python module
 - Increase virtual memory
 - Download and launch a docker
+
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![Docker PS screen shot](Images/blythechristopher-P1-dockerps.png)
@@ -163,9 +165,20 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+
+Copy the playbook file to Ansible Control Node.
+Playbooks for Filebeat and Mtricbeat are also here:
 - Copy the _____ file to _____.
 - Update the _____ file to include...
 - Run the playbook, and navigate to ____ to check that the installation worked as expected. 
+```
+$ cd /etc/ansible
+$ mkdir files
+# Clone Repository + IaC Files
+$ git clone https://github.com/TenkiYamada/Project-1-ELK-Stack-Project.git
+# Move Playbooks and hosts file Into `/etc/ansible`
+$ cp /Project-1-ELK-Stack-Project/ReadMe/Playbooks/*
+```
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
