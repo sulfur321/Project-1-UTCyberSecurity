@@ -153,7 +153,6 @@ This ELK server is configured to monitor the following machines:
                   
 
 We have installed the following Beats on these machines:
-- Specify which Beats you successfully installed
 - Microbeats
 
 These Beats allow us to collect the following information from each machine:
@@ -166,7 +165,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 Copy the playbook file to Ansible Control Node.
-Playbooks for Filebeat and Mtricbeat are also here:[microbeats
+Playbooks for Filebeat and Mtricbeat are also here: filebeats and microbeats
  
 ```
 $ cd /etc/ansible
@@ -178,7 +177,7 @@ $ cp /Project-1-ELK-Stack-Project/ReadMe/Playbooks/*
 ```
 - Update the hosts file to include webserver and elk
 - Edit hosts file to update and to make Ansible run the playbook on a specific machine, and specify which machine to install the ELK server on versus which to install Filebeat.
-- Copy of the hosts file is also here:
+- Copy of the hosts file is also here: hosts
 ```
 $ cd /etc/ansible
 $ cat > hosts <<EOF
