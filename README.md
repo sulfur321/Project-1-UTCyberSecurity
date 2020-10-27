@@ -104,7 +104,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump box provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 5061 Kibana Port
+- 5601 Kibana Port
 
 Machines within the network can only be accessed by jump box provisioner.
 -Which machine did you allow to access your ELK VM? 
@@ -132,9 +132,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 **In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._  
-- ...
-- ...
-
+*Install docker.io
+*Install pip3
+*Install Docker python module
+*Increase virtual memory
+*Download and launch a docker
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![Docker PS screen shot](Images/blythechristopher-P1-dockerps.png)
