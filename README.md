@@ -167,7 +167,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 Copy the playbook file to Ansible Control Node.
-Playbooks for Filebeat and Mtricbeat are also here: [filebeat](Playbooks/filebeat_playbook.yml) and [microbeat](Playbooks/microbeat_playbook.yml)
+Playbooks for Filebeat and Mtricbeat are also here: [filebeat](Playbooks/filebeat-playbook.yml) and [microbeat](Playbooks/microbeat-playbook.yml)
  
 ```
 $ cd /etc/ansible
