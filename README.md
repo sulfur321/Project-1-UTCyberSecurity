@@ -103,7 +103,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump box provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 5601 Kibana Port
+- 5061 Kibana Port
 
 Machines within the network can only be accessed by jump box provisioner.
 
