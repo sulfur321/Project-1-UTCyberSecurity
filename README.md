@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [install_elk.yml](Playbooks/install_elk.yml)
 
- ```
+
 # install_elk.yml
 - name: Configure Elk VM with Docker
   hosts: elkserver
@@ -59,7 +59,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
           - 5601:5601
           - 9200:9200
           - 5044:5044
-  ```
+
     
 
 This document contains the following details:
